@@ -51,6 +51,9 @@ $string2 = '<h1>Hello </h1>';
 echo htmlentities($string2);
 echo htmlspecialchars($string2);
 
+// Formatted Strings - useful when you have outside data
+// Different specifiers for different data types
+
 printf('%s likes to %s', "Abdullah", "code");
 printf("1+1=%d", 1 + 1);
 printf("1+1=%f", 1 + 1);
